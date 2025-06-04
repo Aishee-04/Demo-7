@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("office.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        form{
+            border:0.5px solid transparent;
+            background-color: rgba(15, 15, 15, 0.3);
+            width: 300px;
+            height: 375px;
+            font-size: 20px;
+            text-align: center;
+            padding-left: 70px;
+            padding-right: 70px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            margin-left: 450px;
+            margin-top: 100px;
+            color: white;
+        }
+        img{
+            vertical-align: middle;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        #e{
+            border: 0.5px solid green;
+            background-color: green;
+            box-shadow: 2px 2px white;
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        #agree{
+            text-align: left;
+        }
+        input::placeholder {
+            color: rgb(73, 72, 72); 
+            opacity: 5; 
+        }
+        a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <img src="boy1.jpg">
+        <h4>LOGIN WINDOW</h4>
+        <input type="email" id="c" placeholder="Your Email Address" style="background: transparent; color: black; border: 1px solid transparent; padding: 8px; width: 250px;">
+        <hr style="height:2px;border-width:0;background-color:white;">
+        <br>
+        <input type="password" id="b" placeholder="Your password" style="background: transparent; color: black; border: 1px solid transparent; padding: 8px;width: 250px;">
+        <hr style="height:2px;border-width:0;background-color: white;">
+        <br>
+        <input type="checkbox" id="agree">
+        <label for="agree">Agree with <a href="#">Terms and Conditions</a></label>
+        <br>
+        <input type="button" value="Login" id="e">
+    </form>
+</body>
+</html>
